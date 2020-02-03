@@ -1,3 +1,8 @@
+.wrapper {
+  width: 900px;
+  margin: auto;
+}
+
 body,
 p {
   font-family: "Playfair Display", serif;
@@ -6,10 +11,7 @@ p {
   line-height: 24px;
   color: #626262;
 }
-.header {
-  width: 900px;
-  margin: auto;
-}
+
 .navigation ul {
   text-align: center;
 }
@@ -21,6 +23,7 @@ p {
   margin-right: 100px;
   margin-bottom: 100px;
 }
+
 .navigation li:last-child {
   margin-right: 0;
 }
@@ -31,15 +34,16 @@ p {
 .navigation a {
   text-decoration: none;
   font-family: "Playfair Display", serif;
+  color: #626262;
 }
-.wrapper {
+.container {
   font-size: 0;
-  width: 900px;
-  margin: auto;
 }
+
 .post {
   display: inline-block;
   width: 420px;
+  font-weight: 300;
   font-size: 14px;
   margin-right: 60px;
   margin-bottom: 130px;
@@ -54,7 +58,8 @@ p {
 .title {
   text-transform: uppercase;
   font-family: "Ubuntu", sans-serif;
-  font-style: 300 14px;
+  font-weight: 300;
+  font-size: 14px;
   color: #b4ad9e;
   margin-top: 26px;
   margin-bottom: 30px;
