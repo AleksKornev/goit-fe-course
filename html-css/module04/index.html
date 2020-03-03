@@ -5,110 +5,210 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Homework04</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700|Roboto:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,600,700|Roboto:300,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <div class="header">
-    <h1 class="logo">Mart</h1>
-    <ul class="navigation">
-      <li
-        class="navmenu
+  <div class="container">
+    <nav>
+      <h1><a class="logo" href="#">Mart</a></h1>
+
+      <ul>
+        <li
+          class="navmenu
             "
-      >
-        <a href="#">Home</a>
-      </li>
-      <li
-        class="navmenu
+        >
+          <a href="#">Home</a>
+        </li>
+        <li
+          class="navmenu
             "
-      >
-        <a href="#">About Us</a>
-      </li>
-      <li
-        class="navmenu
+        >
+          <a href="#">About Us</a>
+        </li>
+        <li
+          class="navmenu
             "
-      >
-        <a href="#">Page</a>
-      </li>
-      <li
-        class="navmenu
+        >
+          <a href="#">Page</a>
+        </li>
+        <li
+          class="navmenu
             "
-      >
-        <a href="#">Shop</a>
-      </li>
-      <li
-        class="navmenu
+        >
+          <a href="#">Shop</a>
+        </li>
+        <li
+          class="navmenu
             "
-      >
-        <a href="#">Blog</a>
-      </li>
-      <li
-        class="navmenu
+        >
+          <a href="#">Blog</a>
+        </li>
+        <li
+          class="navmenu
             "
-      >
-        <a href="#">Contact Us</a>
-      </li>
-    </ul>
-  </div>
-  <body>
-    <div class="main">
+        >
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+    <body>
+      <div class="main">
         <h2 class="heading">Featured Products</h2>
         <div class="gallery">
-            <div class="section">
-                <img src="" alt=""><a href="#">Blue Tshirt</a>
-                <p>26</p>
-            </div class="section">
-            <div>
-                <img src="" alt=""><a href="#">Woman Shirt</a>
-                <p>31</p>
-            </div class="section">
-            <div>
-                <img src="" alt=""><a href="#">Yellow Tshirt</a>
-                <p>21</p>
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product1.png"
+                alt="shoes"
+                width="255"
+                height="282"
+            /></a>
+            <h3 class="item-name"><a href="#">Blue Tshirt</a></h3>
+            <p class="price">&#36;26</p>
+          </div>
+
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product2.png"
+                alt="belt"
+                width="255"
+                height="282"
+            /></a>
+            <h3 class="item-name"><a href="#">Woman Shirt</a></h3>
+            <p class="price">&#36;31</p>
+          </div>
+
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product3.png"
+                alt="head"
+                width="255"
+                height="282"
+            /></a>
+            <div class="bpr clearfix">
+              <h3 class="item-name"><a href="#">Yellow Tshirt</a></h3>
+              <p class="price">&#36;21</p>
             </div>
-            <div class="section">
-                <img src="" alt=""><a href="#">Cool Lingerie</a>
-                <p>56</p>
-            </div>
-            <div class="section">
-                <img src="" alt=""><a href="#">Blue Tshirt</a>
-                <p>26</p>
-            </div>
-            <div class="section">
-                <img src="" alt=""><a href="#">Woman Shirt</a>
-                <p>31</p>
-            </div>
-            <div class="section">
-                <img src="" alt=""><a href="#">Yellow Thsirt</a>
-                <p>21</p>
-            </div>
-            <div class="section">
-                <img src="" alt=""><a href="#">Cool Engine</a>
-                <p>56</p>
-            </div>
-            <div class="blog">
-                <h2 class="blogtitle">Latest News</h2>
-                <div class="blogsection">
-                    <p>
-                        <img src="" alt="">
-                        <h3>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h3>
-                        <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nib</p>
-                        <button>Read More</button>
-                    </p>
-                    <p>
-                        <img src="" alt="">
-                        <h3>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h3>
-                        <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nib</p>
-                        <button>Read More</button>
-                    </p>
-                    <p>
-                        <img src="" alt="">
-                        <h3>Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea</h3>
-                        <p>Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nib</p>
-                        <button>Read More</button>
-                    </p>
-                </div>
-            </div>
+          </div>
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product4.png"
+                alt="bag"
+                width="255"
+                height="282"
+            /></a>
+            <h3 class="item-name"><a href="#">Cool Lingerie</a></h3>
+            <p class="price">&#36;56</p>
+          </div>
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product5.png"
+                alt="bag"
+                width="255"
+                height="282"
+            /></a>
+            <h3 class="item-name"><a href="#">Blue Tshirt</a></h3>
+            <p class="price">&#36;26</p>
+          </div>
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product6.png"
+                alt="belt"
+                width="255"
+                height="282"
+            /></a>
+            <h3 class="item-name"><a href="#">Woman Shirt</a></h3>
+            <p class="price">&#36;31</p>
+          </div>
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product7.png"
+                alt="shoes"
+                width="255"
+                height="282"
+            /></a>
+            <h3 class="item-name"><a href="#">Yellow Thsirt</a></h3>
+            <p class="price">&#36;21</p>
+          </div>
+          <div class="section">
+            <a href="#" class="link_img">
+              <img
+                src="./images/product8.png"
+                alt="glasses"
+                width="255"
+                height="282"
+            /></a>
+            <h3 class="item-name"><a href="#">Cool Engine</a></h3>
+            <p class="price">&#36;56</p>
+          </div>
         </div>
-    
-    </div>
-  </body>
+        <div class="blog">
+          <h2 class="heading blog">Latest News</h2>
+          <div class="blogsection clearfix">
+            <div class="blogitem">
+              <img
+                src="./images/blog1.png"
+                alt="ipad"
+                width="255"
+                height="282"
+              />
+              <h3 class="blogtitle">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+              </h3>
+              <p class="blogtext">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt auctor a ornare
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blogitem">
+              <img
+                src="./images/blog2.png"
+                alt="slide"
+                width="255"
+                height="282"
+              />
+              <h3 class="blogtitle">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+              </h3>
+              <p class="blogtext">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt auctor a ornare
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="blogitem">
+              <img
+                src="./images/blog3.png"
+                alt="bus"
+                width="255"
+                height="282"
+              />
+              <h3 class="blogtitle">
+                Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenea
+              </h3>
+              <p class="blogtext">
+                Nam nec tellus a odio tincidunt auc. Duis sed odio sit amet nibh
+                vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.
+                Nam nec tellus a odio tincidunt auctor a ornare
+              </p>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </div>
 </html>
