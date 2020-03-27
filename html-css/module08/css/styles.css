@@ -51,7 +51,7 @@ header {
   background-position: center;
   padding-bottom: 140px;
 }
-.logo {
+.sitelogo {
   display: block;
   font-family: "Montserrat-Bold";
   font-size: 20px;
@@ -228,7 +228,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
   }
-  .logo {
+  .sitelogo {
     margin: 0;
     padding-top: 50px;
   }
