@@ -171,7 +171,8 @@ li.menu-item:nth-child(5) {
   color: #ffffff;
 }
 .input-block {
-  float: left;
+  display: flex;
+  justify-content: left;
   margin-right: 27px;
 }
 .contact-form {
